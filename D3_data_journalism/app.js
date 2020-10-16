@@ -1,6 +1,6 @@
 const dataArray = [];
 
-d3.csv("../data.csv", function(dataFromCSV) {
+d3.csv("https://raw.githubusercontent.com/KevinNMcpu/D3-challenge/main/D3_data_journalism/data.csv", function(dataFromCSV) {
     dataArray.push(dataFromCSV);
 });
 
